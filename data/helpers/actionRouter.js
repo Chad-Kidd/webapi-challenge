@@ -3,7 +3,7 @@ const express = require('express')
 const Actions = require('./actionModel')
 
 const router = express.Router()
-router.use(express.json())
+// router.use(express.json())
 
 // GET ACTIONS
 router.get('/', async (req, res) => {
