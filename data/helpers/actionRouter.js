@@ -79,7 +79,7 @@ router.get('/:id', async (req, res) => {
     }
   });
 
-  // PUT-UPDATE
+  // PUT-UPDATE WORKING
   router.put('/:id', async (req, res) => {
     try {
       const actions = await Actions.update(req.params.id, req.body);
